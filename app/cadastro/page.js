@@ -1,6 +1,7 @@
 'use client'
 
 import  React, { useState } from "react";
+import Link from "next/link";
 
 
 export default function Cadastro() {
@@ -105,12 +106,13 @@ export default function Cadastro() {
 
           {erro && <p className="text-red-500 text-sm mb-2">{erro}</p>}
 
-          
+          <Link href="/login">
           <button 
             className="bg-gray-600 text-white p-2 rounded-full hover:bg-gray-700 w-24"
             onClick={salvar}>
             Cadastra
           </button>  
+              </Link>
         </div>
       </div>
     </div>
