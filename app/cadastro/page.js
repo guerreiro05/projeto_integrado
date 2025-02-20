@@ -110,7 +110,7 @@ export default function Cadastro() {
           <button 
             className="bg-gray-600 text-white p-2 rounded-full hover:bg-gray-700 w-24"
             onClick={salvar}>
-            Cadastra
+            Cadastrar
           </button>  
               </Link>
         </div>
